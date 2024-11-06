@@ -7,6 +7,8 @@ funcs = ['perimeter', 'area']
 sizes = {}
 
 def calc(fig, func, size):
+	# Пользователь вводит название фигуры, затем имя функции.
+	# В зависимости от этого программа вычисляет либо площадь, либо периметр выбранной фигуры
 	assert fig in figs
 	assert func in funcs
 
